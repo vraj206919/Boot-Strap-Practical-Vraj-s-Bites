@@ -1,0 +1,112 @@
+body {
+  background-color: #fffaf2;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #f4a51c !important;
+}
+
+.btn-reserve {
+  background: #f4a51c;
+  color: #fff;
+  border-radius: 30px;
+  padding: 8px 18px;
+}
+
+.btn-reserve:hover {
+  background-color: #f4a51cd8;
+}
+
+.menu-tabs .btn {
+  border-radius: 25px;
+  padding: 6px 16px;
+  margin: 5px;
+  border: 1px solid #ffa70f;
+  color: #444;
+  background: #fff;
+}
+
+.menu-tabs .btn.active {
+  background: #f4a51c;
+  color: #fff;
+}
+
+.menu-tabs .btn.active:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.menu-tabs .btn:hover {
+  background-color: #f4a51c;
+  color: white;
+}
+
+.food-card {
+  border: none;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 20px;
+}
+
+.food-card img {
+  margin: auto;
+  height: 100px;
+}
+
+.food-card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 0.3s;
+}
+
+.rating {
+  color: #f4a51c;
+  font-size: 14px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.btn-cart {
+  border-radius: 20px;
+  border: 1px solid #f4a51c;
+  color: #f4a51c;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+
+.btn-cart:hover {
+  background: #f4a51c;
+  color: #fff;
+}
+
+footer {
+  background: #fff6e6;
+  padding: 40px 0;
+  margin-top: 60px;
+}
+
+footer h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+footer a:hover {
+  color: #555555e3;
+}
